@@ -19,6 +19,8 @@
             <Button x:Name="Win9" Width="100" Height="50" Canvas.Left="450" Canvas.Top="100" Content="Задание 9" Click="Win9_Click"/>
             <Button x:Name="Win10" Width="100" Height="50" Canvas.Left="450" Canvas.Top="100" Content="Задание 10" Click="Win10_Click"/>
             <Button x:Name="Win11" Width="100" Height="50" Canvas.Left="600" Canvas.Top="100" Content="Задание 11" Click="Win11_Click"/>
+            <Button x:Name="Win12" Width="100" Height="50" Canvas.Left="10" Canvas.Top="200" Content="Задание 12" Click="Win12_Click"/>
+            <Button x:Name="Win13" Width="100" Height="50" Canvas.Left="150" Canvas.Top="200" Content="Задание 13" Click="Win13_Click"/>
         </Canvas>
     </Grid>
 </Window>

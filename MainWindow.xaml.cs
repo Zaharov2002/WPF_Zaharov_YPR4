@@ -91,5 +91,17 @@ namespace WPF_Zaharov_PR4
             Window11 window11 = new Window11();
             window11.Show();
         }
+
+        private void Win12_Click(object sender, RoutedEventArgs e)
+        {
+            Window12 window12 = new Window12();
+            window12.Show();
+        }
+
+        private void Win13_Click(object sender, RoutedEventArgs e)
+        {
+            Window13 window13 = new Window13();
+            window13.Show();
+        }
     }
 }

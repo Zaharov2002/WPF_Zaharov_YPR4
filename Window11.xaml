@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Zaharov_PR4"
         mc:Ignorable="d"
-        Title="Window11" Height="450" Width="800">
+        Title="Window11" Height="300" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -35,12 +35,27 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Content="Имя" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Label Content="Фамилия" Grid.Column="5" Grid.ColumnSpan="2"/>
-        <Label Content="Имя пользователя" Grid.Column="9" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Имя" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Фамилия" Grid.Column="5" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Имя пользователя" Grid.Column="9" Grid.ColumnSpan="2"/>
         <TextBox Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" BorderBrush="Black"/>
         <TextBox Grid.Column="5" Grid.Row="1" Grid.ColumnSpan="3" BorderBrush="Black"/>
         <TextBox Grid.Column="9" Grid.Row="1" Grid.ColumnSpan="3" BorderBrush="Black"/>
         <Button Content="@" Width="40" Grid.Column="9" Grid.Row="1" Margin="0,0,21,0"/>
+        <TextBlock Text="Город" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"/>
+        <TextBox Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="5" BorderBrush="Black"/>
+        <TextBlock Text="Область" Grid.Column="7" Grid.ColumnSpan="2" Grid.Row="2"/>
+        <ComboBox Grid.Column="7" Grid.Row="3" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="Брянская область"/>
+            <ComboBoxItem Content="Амурская область"/>
+            <ComboBoxItem Content="Хабаровский край"/>
+            <ComboBoxItem Content="Камчатский край"/>
+            <ComboBoxItem Content="Приморский край"/>
+        </ComboBox>
+        <TextBlock Text="Индекс" Grid.Row="2" Grid.Column="10" Grid.ColumnSpan="5"/>
+        <TextBox Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="2" BorderBrush="Black"/>
+        <CheckBox Content="Примите условия и соглашения" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="4"/>
+        <Button Content="Отправить форму" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Background="SkyBlue"/>
+
     </Grid>
 </Window>
